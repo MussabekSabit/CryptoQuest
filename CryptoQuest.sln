@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuest", "CryptoQuest\CryptoQuest.csproj", "{ACB9C143-CD48-461C-8325-45E6785C8172}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Resources", "CryptoQuest\Resources", "{404C3859-C689-48ED-A8BC-F24A1ECFCF24}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58207"
+		Debug.AspNetCompiler.PhysicalPath = "CryptoQuest\Resources\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58207\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58207"
+		Release.AspNetCompiler.PhysicalPath = "CryptoQuest\Resources\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58207\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58207"
+		SlnRelativePath = "CryptoQuest\Resources\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB9C143-CD48-461C-8325-45E6785C8172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB9C143-CD48-461C-8325-45E6785C8172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB9C143-CD48-461C-8325-45E6785C8172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB9C143-CD48-461C-8325-45E6785C8172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404C3859-C689-48ED-A8BC-F24A1ECFCF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404C3859-C689-48ED-A8BC-F24A1ECFCF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404C3859-C689-48ED-A8BC-F24A1ECFCF24}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{404C3859-C689-48ED-A8BC-F24A1ECFCF24}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48841D28-C81E-4858-A704-35E23DB99DCE}
+	EndGlobalSection
+EndGlobal

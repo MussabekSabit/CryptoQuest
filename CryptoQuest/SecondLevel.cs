@@ -51,6 +51,7 @@ namespace CryptoQuest
             button3.Visible = true;
             textBox1.Enabled = true;
             button2.Enabled = true;
+            this.Text = "tpw alrm";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -65,7 +66,7 @@ namespace CryptoQuest
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "1")
+            if (textBox1.Text.ToLower() == "tek alga")
             {
                 SetDWallpaper(currentWallpaper);
                 this.Hide();
